@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <UserSecretsId>aspnet-SGCliente.UI.Web-36F2495A-D36C-4E04-97B4-AC2F47D3DF88</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.0" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SGCliente.ApplicationCore\SGCliente.ApplicationCore.csproj" />
+    <ProjectReference Include="..\SGCliente.Infrastructure\SGCliente.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
